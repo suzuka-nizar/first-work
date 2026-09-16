@@ -1,4 +1,3 @@
-import fractions
 from flask import Flask, request, redirect
 from datetime import datetime
 import logging

@@ -10,8 +10,6 @@ import pyfiglet
 
 console = Console()
 
-text_color = "red"
-
 app = Flask(__name__)
 #file menyimpan informasi log
 log_file = "loginfo.txt"
@@ -78,7 +76,7 @@ if __name__ == '__main__':
 
   user = input("[+] Masukkan link URL tujuan:\n")
   if not user:
-    print(f"[-] Link URL kosong,\n{text_color}PROGRAM KELUAR!")
+    print("[-] Link URL kosong,\n[red]PROGRAM KELUAR![/]")
     sys.exit()
   #format tautan http:// atau https://
   if not user.startswith('http://') and not user.startswith('https://'):

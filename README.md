@@ -1,2 +1,2 @@
-# 🚀 Repo Beberapa Project dan Script 
-Ini adalah repositori pertama saya di GitHub untuk belajar coding.
+#👁️ Tools & Scripts for learning the basics of ethical hacking.
+Repo ini berisi tool & script dasar yang menggunakan Python.
